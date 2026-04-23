@@ -1,0 +1,29 @@
+# --- Pelican Specific ---
+output/
+cache/
+*.pyc
+__pycache__/
+
+# --- uv / Python Specific ---
+.venv/
+venv/
+ENV/
+.python-version
+
+# --- Build & Tools ---
+sitemap.xml
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# --- Local Secrets/Config ---
+# If you ever add search or analytics keys in a local file
+local_settings.py
+publishconf.py.local
+
+# --- Data Analytics (Optional but recommended) ---
+# Don't commit raw datasets if you start adding data projects
+data/*.csv
+data/*.json
+data/*.parquet

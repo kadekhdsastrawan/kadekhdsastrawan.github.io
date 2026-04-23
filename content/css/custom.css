@@ -1,0 +1,63 @@
+/* 1. Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* --- 2. GLOBAL SETTINGS --- */
+body, html {
+    background-color: #000000 !important; /* Main content background remains black */
+    color: #c9d1d9 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* --- 3. SIDEBAR COLOR (The Gray you asked for) --- */
+.sidebar {
+    background-color: #161b22 !important; /* This is a sleek 'GitHub-style' Gray */
+    border-right: 1px solid #30363d !important;
+}
+
+/* Sidebar Title and Text */
+.sidebar h1, .sidebar h1 a, .sidebar p, .sidebar #profile a {
+    color: #ffffff !important;
+}
+
+/* Sidebar Navigation Links */
+.sidebar ul li a {
+    color: #8b949e !important;
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff !important;
+}
+
+/* --- 4. ARTICLE TITLE (To White) --- */
+h1 a, 
+.entry-title a, 
+.entry-title {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+}
+
+/* Ensure the title doesn't turn orange/blue on hover unless you want it to */
+h1 a:hover, .entry-title a:hover {
+    color: #58a6ff !important; /* Subtle blue hover like your reference */
+}
+
+/* --- 5. CLEANING UP THE CONTENT --- */
+.entry-meta {
+    color: #8b949e !important;
+}
+
+.entry-content p {
+    color: #c9d1d9 !important;
+    line-height: 1.6;
+}
+
+/* Continue Reading Button - Black text on White/Gray button */
+.btn-continue, a.btn {
+    background-color: #f0f6fc !important;
+    color: #000000 !important;
+    border-radius: 6px !important;
+    padding: 8px 16px !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+}
