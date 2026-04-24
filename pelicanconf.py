@@ -29,10 +29,7 @@ SOCIAL = (
 )
 
 # Sidebar links
-LINKS = (
-    ('Projects', '/category/projects.html'),
-    ('About', '/pages/about.html'),
-)
+LINKS = ()
 
 COPYRIGHT_NAME = 'Kadek Sastrawan'
 COPYRIGHT_YEAR = 2026
